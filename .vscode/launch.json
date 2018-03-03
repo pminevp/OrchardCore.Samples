@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/OchardCore.NowUI/bin/Debug/netcoreapp2.0/OchardCore.NowUI.dll",
+            "program": "${workspaceFolder}/OchardCore.CMS/bin/Debug/netcoreapp2.0/OchardCore.CMS.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/OchardCore.NowUI",
+            "cwd": "${workspaceFolder}/OchardCore.CMS",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

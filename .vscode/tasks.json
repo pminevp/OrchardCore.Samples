@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/OchardCore.NowUI/OchardCore.NowUI.csproj"
+                "${workspaceFolder}/OchardCore.CMS/OchardCore.CMS.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

@@ -1,9 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OchardCore.NowUI", "OchardCore.NowUI\OchardCore.NowUI.csproj", "{BB841C45-E3CA-4C39-A3FC-A39C2EBCDAC9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NowUITheme", "OrchardCore.Themes\NowUITheme\NowUITheme.csproj", "{41F4F3CF-E563-41D2-A6AB-A415620E22C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrchardCore.Themes", "OrchardCore.Themes", "{DF7BFE03-CC15-4D57-BE25-722EE088C641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OchardCore.CMS", "OchardCore.CMS\OchardCore.CMS.csproj", "{94539FB4-F63E-441C-8EC9-57B440635A10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB841C45-E3CA-4C39-A3FC-A39C2EBCDAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB841C45-E3CA-4C39-A3FC-A39C2EBCDAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB841C45-E3CA-4C39-A3FC-A39C2EBCDAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB841C45-E3CA-4C39-A3FC-A39C2EBCDAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94539FB4-F63E-441C-8EC9-57B440635A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94539FB4-F63E-441C-8EC9-57B440635A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94539FB4-F63E-441C-8EC9-57B440635A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94539FB4-F63E-441C-8EC9-57B440635A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41F4F3CF-E563-41D2-A6AB-A415620E22C5} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
 	EndGlobalSection
 EndGlobal

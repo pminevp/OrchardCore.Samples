@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheAgency2Theme", "OrchardC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlog2Theme", "OrchardCore.Themes\TheBlog2Theme\TheBlog2Theme.csproj", "{099DF956-714C-4D60-9062-7A01E1ABB79D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreUIAdmin", "OrchardCore.Themes\CoreUIAdmin\CoreUIAdmin.csproj", "{F5D77E53-DC4F-4716-A4CB-823FB7630E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D77E53-DC4F-4716-A4CB-823FB7630E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D77E53-DC4F-4716-A4CB-823FB7630E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D77E53-DC4F-4716-A4CB-823FB7630E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D77E53-DC4F-4716-A4CB-823FB7630E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
 		{62B9E43B-D15D-4155-BC8E-368D5220E7B7} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
 		{099DF956-714C-4D60-9062-7A01E1ABB79D} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
+		{F5D77E53-DC4F-4716-A4CB-823FB7630E9F} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E101E27-5798-4DBB-8068-8F909FCB0A07}

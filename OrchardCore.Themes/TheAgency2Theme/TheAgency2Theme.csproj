@@ -5,8 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\mail\**" />
+    <Compile Remove="wwwroot\scss\**" />
+    <EmbeddedResource Remove="wwwroot\mail\**" />
+    <EmbeddedResource Remove="wwwroot\scss\**" />
     <None Remove="node_modules\**" />
+    <None Remove="wwwroot\mail\**" />
+    <None Remove="wwwroot\scss\**" />
     <PackageAssetFiles Remove="node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\.git" />
+    <EmbeddedResource Remove="wwwroot\.gitignore" />
+    <EmbeddedResource Remove="wwwroot\.travis.yml" />
+    <EmbeddedResource Remove="wwwroot\gulpfile.js" />
+    <EmbeddedResource Remove="wwwroot\index.html" />
+    <EmbeddedResource Remove="wwwroot\LICENSE" />
+    <EmbeddedResource Remove="wwwroot\package-lock.json" />
+    <EmbeddedResource Remove="wwwroot\package.json" />
+    <EmbeddedResource Remove="wwwroot\README.md" />
   </ItemGroup>
 
   <ItemGroup>

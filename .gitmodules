@@ -1,0 +1,6 @@
+[submodule "OrchardCore.Themes/TheBlog2Theme/wwwroot"]
+	path = OrchardCore.Themes/TheBlog2Theme/wwwroot
+	url = https://github.com/Skrypt/startbootstrap-clean-blog.git
+[submodule "OrchardCore.Themes/TheAgency2Theme/wwwroot"]
+	path = OrchardCore.Themes/TheAgency2Theme/wwwroot
+	url = https://github.com/Skrypt/startbootstrap-agency.git

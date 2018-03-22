@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OrchardCore.Themes\NowUITheme\NowUITheme.csproj" />
-    <ProjectReference Include="..\OrchardCore.Themes\TheAgencyTheme\TheAgency2Theme.csproj" />
-    <ProjectReference Include="..\OrchardCore.Themes\TheBlogTheme\TheBlog2Theme.csproj" />
+    <ProjectReference Include="..\OrchardCore.Themes\TheAgency2Theme\TheAgency2Theme.csproj" />
+    <ProjectReference Include="..\OrchardCore.Themes\TheBlog2Theme\TheBlog2Theme.csproj" />
   </ItemGroup>
 </Project>

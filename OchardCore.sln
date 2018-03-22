@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrchardCore.Themes", "Orcha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OchardCore.CMS", "OchardCore.CMS\OchardCore.CMS.csproj", "{94539FB4-F63E-441C-8EC9-57B440635A10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheAgency2Theme", "OrchardCore.Themes\TheAgencyTheme\TheAgency2Theme.csproj", "{62B9E43B-D15D-4155-BC8E-368D5220E7B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheAgency2Theme", "OrchardCore.Themes\TheAgency2Theme\TheAgency2Theme.csproj", "{62B9E43B-D15D-4155-BC8E-368D5220E7B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlog2Theme", "OrchardCore.Themes\TheBlogTheme\TheBlog2Theme.csproj", "{099DF956-714C-4D60-9062-7A01E1ABB79D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlog2Theme", "OrchardCore.Themes\TheBlog2Theme\TheBlog2Theme.csproj", "{099DF956-714C-4D60-9062-7A01E1ABB79D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

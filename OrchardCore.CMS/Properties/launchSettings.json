@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "OchardCore.NowUI": {
+    "OrchardCore.NowUI": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

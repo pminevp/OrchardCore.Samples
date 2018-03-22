@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace OchardCore.NowUI
+namespace OrchardCore.CMS
 {
     public class Startup
     {

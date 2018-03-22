@@ -1,0 +1,3 @@
+[submodule "OrchardCore.Themes/TheBlog2Theme/wwwroot"]
+	path = OrchardCore.Themes/TheBlog2Theme/wwwroot
+	url = https://github.com/BlackrockDigital/startbootstrap-clean-blog.git

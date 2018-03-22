@@ -1,11 +1,16 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NowUITheme", "OrchardCore.Themes\NowUITheme\NowUITheme.csproj", "{41F4F3CF-E563-41D2-A6AB-A415620E22C5}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowUITheme", "OrchardCore.Themes\NowUITheme\NowUITheme.csproj", "{41F4F3CF-E563-41D2-A6AB-A415620E22C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrchardCore.Themes", "OrchardCore.Themes", "{DF7BFE03-CC15-4D57-BE25-722EE088C641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OchardCore.CMS", "OchardCore.CMS\OchardCore.CMS.csproj", "{94539FB4-F63E-441C-8EC9-57B440635A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OchardCore.CMS", "OchardCore.CMS\OchardCore.CMS.csproj", "{94539FB4-F63E-441C-8EC9-57B440635A10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheAgency2Theme", "OrchardCore.Themes\TheAgencyTheme\TheAgency2Theme.csproj", "{62B9E43B-D15D-4155-BC8E-368D5220E7B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlog2Theme", "OrchardCore.Themes\TheBlogTheme\TheBlog2Theme.csproj", "{099DF956-714C-4D60-9062-7A01E1ABB79D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +26,24 @@ Global
 		{94539FB4-F63E-441C-8EC9-57B440635A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94539FB4-F63E-441C-8EC9-57B440635A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94539FB4-F63E-441C-8EC9-57B440635A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B9E43B-D15D-4155-BC8E-368D5220E7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B9E43B-D15D-4155-BC8E-368D5220E7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B9E43B-D15D-4155-BC8E-368D5220E7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B9E43B-D15D-4155-BC8E-368D5220E7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099DF956-714C-4D60-9062-7A01E1ABB79D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41F4F3CF-E563-41D2-A6AB-A415620E22C5} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
+		{62B9E43B-D15D-4155-BC8E-368D5220E7B7} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
+		{099DF956-714C-4D60-9062-7A01E1ABB79D} = {DF7BFE03-CC15-4D57-BE25-722EE088C641}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E101E27-5798-4DBB-8068-8F909FCB0A07}
 	EndGlobalSection
 EndGlobal

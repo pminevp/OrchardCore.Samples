@@ -4,9 +4,6 @@
 [submodule "OrchardCore.Themes/TheAgency2Theme/wwwroot"]
 	path = OrchardCore.Themes/TheAgency2Theme/wwwroot
 	url = https://github.com/Skrypt/startbootstrap-agency.git
-[submodule "OrchardCore.Themes/CoreUIAdmin"]
-	path = OrchardCore.Themes/CoreUIAdmin
-	url = https://github.com/matiasmolleja/orchard-core-admin-coreui.git
 [submodule "OrchardCore.Themes/NowUITheme"]
 	path = OrchardCore.Themes/NowUITheme
 	url = https://github.com/Skrypt/orchard-core-nowui.git

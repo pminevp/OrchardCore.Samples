@@ -62,7 +62,9 @@ Feed: https://www.myget.org/F/orchardcore-preview/api/v3/index.json
 
 
 
-To be able to use these feeds in Visual Studio your will need to add them to the Nuget package source settings that can be found by going to Visual Studio Tools menu under Nuget Package Manager --> Package Manager Settings.![image](https://user-images.githubusercontent.com/3228637/38450422-63670f1c-39eb-11e8-9c14-0743f0a4da42.png)
+To be able to use these feeds in Visual Studio your will need to add them to the Nuget package source settings that can be found by going to Visual Studio Tools menu under Nuget Package Manager --> Package Manager Settings.
+
+![image](https://user-images.githubusercontent.com/3228637/38450422-63670f1c-39eb-11e8-9c14-0743f0a4da42.png)
 
 The ***orchardcore-dev*** feed is used for the source code version of Orchard Core; we won't need it. however the one that we are interested in is the ***orchardcore-preview*** feed. 
 
@@ -113,7 +115,7 @@ dotnet new ocmodule -n "Module.OrchardCore" -PartName "TestPart" -AddPart true
 
 ### From Visual Studio
 
-Should be the same procedure as with modules but instead we need to reference OrchardCore.Theme.Targets and Manifest.cs files slightly differ : 
+Should be the same procedure as with modules but instead we need to reference OrchardCore.Theme.Targets and Manifest.cs file slightly differ : 
 
 ```
 using OrchardCore.DisplayManagement.Manifest;

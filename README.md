@@ -32,7 +32,7 @@ dotnet new --debug:reinit
 
 ## Create a new module
 
-###From Visual Studio
+### From Visual Studio
 
 Fire up Visual Studio, open Orchard Core solution file (.sln), select OrchardCore.Modules folder, right click and select "add --> new project" and create a new .NET Standard Class Library:
 
@@ -50,7 +50,7 @@ For marking this new Class Library as a Orchard Module we will now need to refer
 
 ![image](https://user-images.githubusercontent.com/3228637/38450194-c617148a-39e7-11e8-95b0-2d35f43a6fad.png)
 
-####MyGet:
+#### MyGet:
 
 Dev: https://www.myget.org/gallery/orchardcore-dev
 
@@ -99,7 +99,7 @@ You should be all set for starting building your custom module.
 
 ### From Command Shell
 
-####Initialize template:
+#### Initialize template:
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Modules\TemplateModule.OrchardCore"
 

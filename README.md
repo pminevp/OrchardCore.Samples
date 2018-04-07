@@ -6,19 +6,19 @@ Orchard Core Templates uses Orchard Core Nuget packages instead of using the Orc
 
 Orchard Core Templates also includes `dotnet new` templates configurations for creating new themes and modules from command shell. Our configurations have been implemented by using examples that you can find there : https://github.com/dotnet/dotnet-template-samples
 
-[TOC]
-
 ## HOW TO
 
 Orchard Core runs on .Net Core 2.0, so you'll need to make sure you have it installed before you continue.
 
 https://www.microsoft.com/net/download/all
 
-
-
 ## Create a new website
 
+### From Visual Studio
 
+TODO
+
+### From Command Shell
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Cms.Web"
 
@@ -27,8 +27,6 @@ dotnet new ocweb
 dotnet new ocweb -AddNLog true
 
 dotnet new --debug:reinit
-
-
 
 ## Create a new module
 
@@ -99,11 +97,11 @@ You should be all set for starting building your custom module.
 
 ### From Command Shell
 
-#### Initialize template:
+#### Initialize module template:
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Modules\TemplateModule.OrchardCore"
 
-#### Commands:
+#### Module commands:
 
 dotnet new ocmodule -n "Module.OrchardCore"
 
@@ -113,16 +111,37 @@ dotnet new ocmodule -n "Module.OrchardCore" -PartName "TestPart" -AddPart true
 
 ## Create a new theme
 
-1. ***From Visual Studio***
+### From Visual Studio
 
-2. ***From Command Shell***
+Should be the same procedure as with modules but instead we need to reference OrchardCore.Theme.Targets and Manifest.cs files slightly differ : 
 
-   dotnet new -i "C:\...\OrchardCore.Templates\src\Themes\TemplateTheme.OrchardCore"
+```
+using OrchardCore.DisplayManagement.Manifest;
 
-   dotnet new octheme -n "Theme.OrchardCore"
+[assembly: Theme(
+    Name = "TemplateTheme.OrchardCore",
+    Author = "The Orchard Team",
+    Website = "https://orchardproject.net",
+    Version = "0.0.1",
+    Description = "The TemplateTheme."
+)]
+```
+
+### From Command Shell
+
+#### Initialize theme template:
+
+dotnet new -i "C:\...\OrchardCore.Templates\src\Themes\TemplateTheme.OrchardCore"
+
+#### Theme commands:
+
+dotnet new octheme -n "Theme.OrchardCore"
 
 
-## Commands
+
+## All Commands
+
+Initialize:
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Cms.Web"
 
@@ -132,9 +151,7 @@ dotnet new -i "C:\...\OrchardCore.Templates\src\Themes\TemplateTheme.OrchardCore
 
 
 
-et après, dans un répertoire, une de ces commandes :
-
-
+After initializing :
 
 dotnet new ocweb
 

@@ -10,12 +10,10 @@ namespace OrchardCore.Cms.Web
     public class Program
     {
         public static void Main(string[] args)
-        {
-            BuildWebHost(args).Run();
-        }
+            => BuildWebHost(args).Run();
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+        public static IWebHost BuildWebHost(string[] args)
+            => WebHost.CreateDefaultBuilder(args)
 #if (AddNLog)
                 .UseNLogWeb()
 #endif

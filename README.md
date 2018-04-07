@@ -26,8 +26,6 @@ dotnet new ocweb
 
 dotnet new ocweb -AddNLog true
 
-dotnet new --debug:reinit
-
 ## Create a new module
 
 ### From Visual Studio
@@ -163,10 +161,13 @@ dotnet new ocmodule -n "Module.OrchardCore"
 
 dotnet new octheme -n "Theme.OrchardCore"
 
-dotnet new --debug:reinit
-
 dotnet new ocmodule -n "Module.OrchardCore" -PartName "TestPart"
 
 dotnet new ocweb -AddNLog true
 
 dotnet new ocmodule -n "Module.OrchardCore" -PartName "TestPart" -AddPart true
+
+
+Reinitialize templates : 
+
+dotnet new --debug:reinit

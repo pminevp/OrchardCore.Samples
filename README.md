@@ -95,7 +95,9 @@ using OrchardCore.Modules.Manifest;
 
 Please refer to Orchard Core documentation about Manifest.cs files for further details.
 
-You should be all set for starting building your custom module.
+
+
+Last step is to add our new module to the OrchardCore.Cms.Web project as a reference for including it as part as our website modules. After that, you should be all set for starting building your custom module.
 
 ### From Command Shell
 

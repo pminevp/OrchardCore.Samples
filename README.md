@@ -135,7 +135,7 @@ using OrchardCore.DisplayManagement.Manifest;
 
 #### Initialize theme template:
 
-dotnet new -i "C:\...\OrchardCore.Templates\src\Themes\TemplateTheme.OrchardCore"
+dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Themes\TemplateTheme.OrchardCore"
 
 #### Theme commands:
 
@@ -149,9 +149,9 @@ Initialize:
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Cms.Web"
 
-dotnet new -i "C:\...\Projects\OrchardCore.Templates\src\Modules\TemplateModule.OrchardCore"
+dotnet new -i "C:\...\Projects\OrchardCore.Templates\src\OrchardCore.Modules\TemplateModule.OrchardCore"
 
-dotnet new -i "C:\...\OrchardCore.Templates\src\Themes\TemplateTheme.OrchardCore"
+dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Themes\TemplateTheme.OrchardCore"
 
 
 

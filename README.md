@@ -12,7 +12,7 @@ Orchard Core runs on .Net Core 2.0, so you'll need to make sure you have it inst
 
 https://www.microsoft.com/net/download/all
 
-## Create a new theme
+## Create a new module
 
 1. ***From Visual Studio***
 
@@ -30,11 +30,7 @@ https://www.microsoft.com/net/download/all
 
    For marking this new Class Library as a Orchard Module we will now need to reference OrchardCore.Module.Targets Nuget package. You can find the dev and preview feeds on MyGet as of now by searching for Orchard on the MyGet gallery.
 
-   ​
-
    ![image](https://user-images.githubusercontent.com/3228637/38450194-c617148a-39e7-11e8-95b0-2d35f43a6fad.png)
-
-   ​
 
    MyGet feeds : 
 
@@ -42,35 +38,43 @@ https://www.microsoft.com/net/download/all
 
    https://www.myget.org/gallery/orchardcore-preview
 
-   ​
-
    To be able to use these feeds in Visual Studio your will need to add them to the Nuget package source settings that can be found by going to Visual Studio Tools menu under Nuget Package Manager --> Package Manager Settings.
-
-   ​
 
    ![image](https://user-images.githubusercontent.com/3228637/38450422-63670f1c-39eb-11e8-9c14-0743f0a4da42.png)
 
-   ​
-
    The ***orchardcore-dev*** feed is used for the source code version of Orchard Core; we won't need it. however the one that we are interested in is the ***orchardcore-preview*** feed. 
-
-   ​
 
    ![image](https://user-images.githubusercontent.com/3228637/38450242-886933f6-39e8-11e8-896c-1f807e5530a0.png)
 
-   ​
-
    Each of these Nuget packages are used to mark a Class Library as a specific Orchard Core functionality. OrchardCore.Module.Targets is the one we are interested in for now. We will mark our new Class Library as a module by adding OrchardCore.Module.Targets as a dependency. For doing so you will need to right click on MyModule.OrchardCore project and select "Manage Nuget Packages" option. To find the packages in Nuget Package Manager you will need to check "include prerelease" and make sure you have Orchard Core Beta feed that we added earlier selected. Once you have found it click on the Install button on the right panel next to Version : Latest prerelease x.x.x.x
-
-   ​
 
    ![image](https://user-images.githubusercontent.com/3228637/38450558-f4b83098-39ed-11e8-93c7-0fd9e5112dff.png)
 
-   ​
+   Once done you new module will look like this : 
 
-2. ***From Command Shell***
+   ![image](https://user-images.githubusercontent.com/3228637/38450628-31c8e2b0-39ef-11e8-9de7-c15f0c6544c5.png)
 
-## Create a new module
+   For Orchard Core to identify this module it will now require a Manifest.cs file. Here is an example of that file :
+
+   ```
+   using OrchardCore.Modules.Manifest;
+
+   [assembly: Module(
+       Name = "TemplateModule.OrchardCore",
+       Author = "The Orchard Team",
+       Website = "http://orchardproject.net",
+       Version = "0.0.1",
+       Description = "Template module."
+   )]
+
+   ```
+
+   Please refer to Orchard Core documentation about Manifest.cs files for further details.
+
+
+1. ***From Command Shell***
+
+## Create a new theme
 
 1. ***From Visual Studio***
 

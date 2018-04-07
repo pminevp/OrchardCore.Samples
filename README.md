@@ -95,8 +95,6 @@ using OrchardCore.Modules.Manifest;
 
 Please refer to Orchard Core documentation about Manifest.cs files for further details.
 
-
-
 Last step is to add our new module to the OrchardCore.Cms.Web project as a reference for including it as part as our website modules. After that, you should be all set for starting building your custom module.
 
 ### From Command Shell
@@ -149,7 +147,7 @@ Initialize:
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Cms.Web"
 
-dotnet new -i "C:\...\Projects\OrchardCore.Templates\src\OrchardCore.Modules\TemplateModule.OrchardCore"
+dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Modules\TemplateModule.OrchardCore"
 
 dotnet new -i "C:\...\OrchardCore.Templates\src\OrchardCore.Themes\TemplateTheme.OrchardCore"
 

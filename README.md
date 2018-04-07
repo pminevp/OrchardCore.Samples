@@ -80,7 +80,7 @@ Once done you new module will look like this :
 
 For Orchard Core to identify this module it will now require a Manifest.cs file. Here is an example of that file:
 
-```
+```C#
 using OrchardCore.Modules.Manifest;
 
 [assembly: Module(
@@ -117,7 +117,7 @@ dotnet new ocmodule -n "Module.OrchardCore" -PartName "TestPart" -AddPart true
 
 Should be the same procedure as with modules but instead we need to reference OrchardCore.Theme.Targets and Manifest.cs file slightly differ : 
 
-```
+```C#
 using OrchardCore.DisplayManagement.Manifest;
 
 [assembly: Theme(

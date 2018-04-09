@@ -93,6 +93,9 @@ using OrchardCore.Modules.Manifest;
 
 Please refer to Orchard Core documentation about Manifest.cs files for further details.
 
+For this module to start we now will need to add a startup.cs file to our new module. See this file as an example:  
+https://github.com/Skrypt/OrchardCore.Templates/blob/master/OrchardCore.Modules/TemplateModule.OrchardCore/Startup.cs
+
 Last step is to add our new module to the OrchardCore.Cms.Web project as a reference for including it as part as our website modules. After that, you should be all set for starting building your custom module.
 
 ### From Command Shell

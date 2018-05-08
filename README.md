@@ -91,8 +91,8 @@ using OrchardCore.Modules.Manifest;
 
 ```
 
-Please refer to Orchard Core documentation about Manifest.cs files for further details.
-TODO : Orchard Core Manifest documentation. Previous documentation as a reference link below.
+Please refer to Orchard Core documentation about Manifest.cs files for further details.  
+TODO : Orchard Core Manifest documentation. Previous documentation as a reference link below.  
 http://docs.orchardproject.net/en/latest/Documentation/Manifest-files/
 
 For this module to start we now will need to add a startup.cs file to our new module. See this file as an example:  

@@ -2,9 +2,9 @@
 
 Orchard Core Samples is a solution for theme and module developers. It is also a repository for documenting different types of ways to develop modules and themes on Orchard Core CMS.
 
-Orchard Core Templates uses Orchard Core Nuget packages instead of using the Orchard Core source code directly. We are doing this mainly because we think that we should never need to modify Orchard Core directly in a website production context; but only extend it per need. By doing so we increase productivity by getting faster compilation time since we should only need to compile what we are working on. Also, it is way easier to target a specific version of Orchard and thus easier to manage than using full source code and handling merge issues.
+Orchard Core Samples uses Orchard Core Nuget packages instead of using the Orchard Core source code directly. We are doing this mainly because we think that we should never need to modify Orchard Core directly in a website production context; but only extend it per need. By doing so we increase productivity by getting faster compilation time since we should only need to compile what we are working on. Also, it is way easier to target a specific version of Orchard and thus easier to manage than using full source code and handling merge issues.
 
-Orchard Core Templates also includes `dotnet new` templates configurations for creating new themes and modules from command shell. Our configurations have been implemented by using examples that you can find there : https://github.com/dotnet/dotnet-template-samples
+Orchard Core Samples also includes `dotnet new` templates configurations for creating new themes and modules from command shell. Our configurations have been implemented by using examples that you can find there : https://github.com/dotnet/dotnet-template-samples
 
 ## HOW TO
 
